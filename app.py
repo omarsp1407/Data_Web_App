@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 import numpy as np
 
-car_data = pd.read_csv('C:/Users/osp14/Documents/PythonProjects/Data_Web_App/Data_Web_App/dataset/vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('dataset/vehicles_us.csv') # leer los datos
 
 # Crear un encabezado
 st.header('Generador de Histogramas con Plotly Express')
