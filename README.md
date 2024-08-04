@@ -54,3 +54,8 @@ La aplicación se compone de los siguientes elementos:
 1. **Lectura de Datos:** Los datos se leen del archivo CSV `vehicles_us.csv` ubicado en el directorio `dataset`. 
    ```python
    car_data = pd.read_csv('dataset/vehicles_us.csv')
+
+## Despliegue en Render
+La aplicación también está desplegada en Render y puede ser accesada en la siguiente URL:
+
+https://data-web-app.onrender.com
