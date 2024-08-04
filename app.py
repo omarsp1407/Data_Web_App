@@ -24,6 +24,6 @@ if st.button('Generar Histograma'):
     st.plotly_chart(histograma)
 
 # Crear un botón que al hacer clic construye el diagraa de dispersion
-if st.button('Generar Histograma'):
+if st.button('Generar Diagrama de dispersion'):
     dispersion = crear_grafico_dispersion()
     st.plotly_chart(dispersion)
